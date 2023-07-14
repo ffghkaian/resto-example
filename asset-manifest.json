@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resto-example/static/css/main.5cf2048c.css",
+    "main.js": "/resto-example/static/js/main.832a6cd6.js",
+    "index.html": "/resto-example/index.html",
+    "main.5cf2048c.css.map": "/resto-example/static/css/main.5cf2048c.css.map",
+    "main.832a6cd6.js.map": "/resto-example/static/js/main.832a6cd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf2048c.css",
+    "static/js/main.832a6cd6.js"
+  ]
+}
