@@ -1,0 +1,81 @@
+.hero header {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+.hero .carousel img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.menu-link-button {
+  margin-top: -2vh;
+  text-align: center;
+}
+.menu-link-button button {
+  background: #fd4556;
+  color: #fffbf5;
+  font-weight: 600;
+  width: 180px;
+}
+.sub-title {
+  overflow: hidden;
+  text-align: center;
+}
+
+.sub-title:before,
+.sub-title:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.sub-title:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.sub-title:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.fav-today {
+  margin: 2vh 0;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  text-align: center;
+  gap: 1vh;
+}
+.fav-today-card img {
+  aspect-ratio: 1/1;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* tatse list */
+.taste-container {
+  display: flex;
+  justify-content: space-between;
+  background: #fffbf5;
+  color: #212121;
+  padding: 1vh;
+  text-align: center;
+}
+.taste-container .taste-name {
+  font-weight: 600;
+}
+.taste-container .taste-desc {
+  font-size: 14px;
+  color: #535353;
+}
+.taste-container img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 8px;
+}

@@ -1,0 +1,29 @@
+.count-button {
+  width: 120px;
+  text-align: center;
+}
+.count-button button {
+  background: #fd4556;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 5px 10px;
+  border: none;
+}
+.count-button input {
+  width: 35px;
+  padding: 5px 3px;
+  outline: none;
+  margin: 0 10px;
+  border-radius: 8px;
+  border: 1px #b3b3b3 solid;
+  text-align: center;
+  /*box-shadow: 0 0 0.3em rgb(0,0,0, 0.2);*/
+}
+.remove-button {
+  width: 100%;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.remove-button .fa-trash-can {
+  margin-right: 10px;
+}

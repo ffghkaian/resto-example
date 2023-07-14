@@ -1,0 +1,27 @@
+.search-container {
+  background: #fffbf5;
+  color: #212121;
+  margin: 1vh;
+  padding: 1vh;
+  border-radius: 8px;
+  box-shadow: 0 0 0.3em rgb(225,225,225, 0.5);
+}
+.search-input {
+  display: flex;
+  margin-top: 1vh;
+}
+.search-input input[type='search'] {
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: inset 0 0 0.3em rgb(0,0,0, 0.2);
+}
+.search-input .fa-magnifying-glass {
+  padding: 5px;
+  margin-right: 1vh;
+  box-shadow: 0 0 0.3em rgb(0,0,0, 0.2);
+  border-radius: 5px;
+  background: whitesmoke;
+}

@@ -1,0 +1,22 @@
+.outlet-card img {
+  width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 0 0.3em rgb(0,0,0,0.3);
+  
+}
+.outlet-container {
+  background: #fffbf5;
+  color: #212121;
+  font-weight: 600;
+  padding: 1vh;
+}
+.outlet-wraper {
+  margin: 1vh 0;
+  display: flex;
+  overflow-x: scroll;
+  gap: 2vh;
+  scroll-snap-type: x mandatory;
+}
+.outlet-card {
+  scroll-snap-align: start;
+}

@@ -1,0 +1,13 @@
+.clock-container {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 1vh;
+}
+.clock-container span {
+}
+.open {
+  color: #1ed760;
+}
+.close {
+  color: #bd3944;
+}

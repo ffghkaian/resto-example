@@ -1,0 +1,22 @@
+.footer-section {
+  margin-top: 1vh;
+  padding: 1vh;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px #b3b3b3 solid;
+}
+.social-footer {
+  text-align: center;
+}
+.fa-brands {
+  font-size: 22px;
+  margin: 0.5vh;
+}
+footer {
+  margin: 3vh 0;
+}
+.logo {
+  background: #fd4556;
+  width: 75px;
+  text-align: right;
+}
